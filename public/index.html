@@ -21,7 +21,17 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-gray-50">
-    <div class="w-screen h-screen bg-gray-50 flex justify-center items-center" id="root"></div>
+  <body>
+    <div
+      class="w-screen h-screen bg-gray-50 flex justify-center items-center"
+      id="root"
+      ondragover="dragOverHandler(event);"
+    ></div>
+    <script>
+      function dragOverHandler(e) {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = "none";
+      }
+    </script>
   </body>
 </html>

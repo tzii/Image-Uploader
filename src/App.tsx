@@ -14,7 +14,7 @@ export default function App() {
       return <LoadingView />;
 
     case "end":
-      return <EndView url={url} />;
+      return <EndView setStatus={setStatus} url={url} />;
 
     default:
       return null;
