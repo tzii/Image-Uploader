@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Image-Uploader/static/css/main.46698423.chunk.css",
+    "main.js": "/Image-Uploader/static/js/main.ce2148dd.chunk.js",
+    "main.js.map": "/Image-Uploader/static/js/main.ce2148dd.chunk.js.map",
+    "runtime-main.js": "/Image-Uploader/static/js/runtime-main.1da061b2.js",
+    "runtime-main.js.map": "/Image-Uploader/static/js/runtime-main.1da061b2.js.map",
+    "static/js/2.e386cd3f.chunk.js": "/Image-Uploader/static/js/2.e386cd3f.chunk.js",
+    "static/js/2.e386cd3f.chunk.js.map": "/Image-Uploader/static/js/2.e386cd3f.chunk.js.map",
+    "index.html": "/Image-Uploader/index.html",
+    "static/css/main.46698423.chunk.css.map": "/Image-Uploader/static/css/main.46698423.chunk.css.map",
+    "static/js/2.e386cd3f.chunk.js.LICENSE.txt": "/Image-Uploader/static/js/2.e386cd3f.chunk.js.LICENSE.txt",
+    "static/media/image.3710b8a3.svg": "/Image-Uploader/static/media/image.3710b8a3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1da061b2.js",
+    "static/js/2.e386cd3f.chunk.js",
+    "static/css/main.46698423.chunk.css",
+    "static/js/main.ce2148dd.chunk.js"
+  ]
+}
