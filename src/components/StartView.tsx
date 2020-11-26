@@ -7,7 +7,7 @@ type ViewProps = {
 };
 
 export default function StartView({ setStatus, setURL }: ViewProps) {
-  const url = "https://api.cloudinary.com/v1_1/demo/image/upload";
+  const url = "https://api.cloudinary.com/v1_1/tuanvu/image/upload";
   const fileInput = useRef<HTMLInputElement>(null);
 
   const clickHandler = () => {
@@ -19,7 +19,7 @@ export default function StartView({ setStatus, setURL }: ViewProps) {
       setStatus("loading");
       let formData = new FormData();
       formData.append("file", fileInput.current?.files[0]);
-      formData.append("upload_preset", "docs_upload_example_us_preset");
+      formData.append("upload_preset", "u01sk6iy");
       fetch(url, {
         method: "POST",
         body: formData,
