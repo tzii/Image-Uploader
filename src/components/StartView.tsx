@@ -39,7 +39,7 @@ export default function StartView({ setStatus, setURL }: ViewProps) {
   const dropHandler = (e: DragEvent) => {
     e.preventDefault();
     dropZone.current?.classList.remove("bg-opacity-100");
-    uploadHandler(e.dataTransfer.files[0]);
+    if (e.dataTransfer.files[0].type.startsWith("image")) uploadHandler(e.dataTransfer.files[0]);
   };
 
   const dragOverHandler = (e: DragEvent) => {
